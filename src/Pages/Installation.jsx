@@ -113,9 +113,7 @@ const parseDownloads = (str) => {
                   </div>
                   
                 </div>
-                {/* <div className="card-actions justify-end">
-      <button className="btn btn-primary">Watch</button>
-    </div> */}
+              
               </div>
 
               <div className="flex items-center gap-3 pr-3">
