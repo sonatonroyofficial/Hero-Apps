@@ -66,7 +66,7 @@ const AppDetails = () => {
     if (isInstall || isLoadingBtn) return;
     setIsLoadingBtn(true);
 
-    // fake delay (loading effect)
+   
     await new Promise((res) => setTimeout(res, 1500));
 
     const existingList = JSON.parse(localStorage.getItem("app")) || [];

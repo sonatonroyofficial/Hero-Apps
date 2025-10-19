@@ -4,7 +4,7 @@ import { IoStar } from "react-icons/io5";
 import { Link } from "react-router-dom";  
 
 const AppCard = ({ app }) => {   
-  const { image, ratingAvg, title, downloads, id } = app || {}; // ← Safe destructuring
+  const { image, ratingAvg, title, downloads, id } = app || {}; 
 
   return (
     <div>
